@@ -9,8 +9,17 @@
 #include <iostream>
 #include "Axon.h"
 
-int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
+int main()
+{
+    Axon axon1;
+    Axon axon2 = Axon(2.3,4.67);
+    
+    axon1.print_axon();
+    axon2.print_axon();
+    
+    
+    
+    
+    
     return 0;
 }

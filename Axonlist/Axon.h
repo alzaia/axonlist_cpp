@@ -17,7 +17,8 @@
 class Axon
 {
 public:
-    Axon(double centroid_x = 0.0, double centroid_y = 0.0);
+    Axon();
+    Axon(double centroid_x, double centroid_y);
     ~Axon();
     
     double get_centroid_x() const;
