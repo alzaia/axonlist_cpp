@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		6D3C2983240AFA9A003AA43B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6D3C2982240AFA9A003AA43B /* main.cpp */; };
+		6D3C298B240AFD9F003AA43B /* Axon.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6D3C2989240AFD9F003AA43B /* Axon.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		6D3C297F240AFA9A003AA43B /* Axonlist */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Axonlist; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D3C2982240AFA9A003AA43B /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		6D3C2989240AFD9F003AA43B /* Axon.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Axon.cpp; sourceTree = "<group>"; };
+		6D3C298A240AFD9F003AA43B /* Axon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Axon.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				6D3C2982240AFA9A003AA43B /* main.cpp */,
+				6D3C2989240AFD9F003AA43B /* Axon.cpp */,
+				6D3C298A240AFD9F003AA43B /* Axon.h */,
 			);
 			path = Axonlist;
 			sourceTree = "<group>";
@@ -120,6 +125,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6D3C2983240AFA9A003AA43B /* main.cpp in Sources */,
+				6D3C298B240AFD9F003AA43B /* Axon.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
