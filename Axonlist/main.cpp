@@ -8,6 +8,7 @@
 
 #include <iostream>
 #include "Axon.h"
+#include "Axonlist.h"
 
 int main()
 {
@@ -16,6 +17,11 @@ int main()
     
     axon1.print_axon();
     axon2.print_axon();
+    
+    Axonlist axonlist1;
+    axonlist1.add_axon(axon1);
+    axonlist1.add_axon(axon2);
+    axonlist1.print_axonlist();
     
     
     

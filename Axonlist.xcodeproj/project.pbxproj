@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		6D3C2983240AFA9A003AA43B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6D3C2982240AFA9A003AA43B /* main.cpp */; };
 		6D3C298B240AFD9F003AA43B /* Axon.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6D3C2989240AFD9F003AA43B /* Axon.cpp */; };
+		6D3C298E240B1D09003AA43B /* Axonlist.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6D3C298C240B1D09003AA43B /* Axonlist.cpp */; };
+		6D3C2991240B1E87003AA43B /* MetricsExtractor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6D3C298F240B1E87003AA43B /* MetricsExtractor.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +30,10 @@
 		6D3C2982240AFA9A003AA43B /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		6D3C2989240AFD9F003AA43B /* Axon.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Axon.cpp; sourceTree = "<group>"; };
 		6D3C298A240AFD9F003AA43B /* Axon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Axon.h; sourceTree = "<group>"; };
+		6D3C298C240B1D09003AA43B /* Axonlist.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Axonlist.cpp; sourceTree = "<group>"; };
+		6D3C298D240B1D09003AA43B /* Axonlist.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Axonlist.h; sourceTree = "<group>"; };
+		6D3C298F240B1E87003AA43B /* MetricsExtractor.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MetricsExtractor.cpp; sourceTree = "<group>"; };
+		6D3C2990240B1E87003AA43B /* MetricsExtractor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MetricsExtractor.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +68,10 @@
 			children = (
 				6D3C2982240AFA9A003AA43B /* main.cpp */,
 				6D3C2989240AFD9F003AA43B /* Axon.cpp */,
+				6D3C298C240B1D09003AA43B /* Axonlist.cpp */,
+				6D3C298F240B1E87003AA43B /* MetricsExtractor.cpp */,
+				6D3C2990240B1E87003AA43B /* MetricsExtractor.h */,
+				6D3C298D240B1D09003AA43B /* Axonlist.h */,
 				6D3C298A240AFD9F003AA43B /* Axon.h */,
 			);
 			path = Axonlist;
@@ -124,7 +134,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6D3C2991240B1E87003AA43B /* MetricsExtractor.cpp in Sources */,
 				6D3C2983240AFA9A003AA43B /* main.cpp in Sources */,
+				6D3C298E240B1D09003AA43B /* Axonlist.cpp in Sources */,
 				6D3C298B240AFD9F003AA43B /* Axon.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

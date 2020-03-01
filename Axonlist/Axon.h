@@ -23,16 +23,20 @@ public:
     
     double get_centroid_x() const;
     double get_centroid_y() const;
+    double get_diameter() const;
     
     void set_centroid_x(double cx);
     void set_centroid_y(double cy);
+    void set_diameter(double diam);
     
     void print_axon() const;
+    double compute_axon_area() const;
     
     
 private:
     double centroid_x_;
     double centroid_y_;
+    double diameter_;
 };
 
 
